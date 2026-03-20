@@ -1,32 +1,56 @@
 # 📦 Supply Chain Logistics EDA
 
-## 🚀 Project Overview
+## 🚀 Problem Statement
 
-This project analyzes a supply chain dataset to identify key drivers of freight cost and improve logistics decision-making.
+Freight costs in supply chain operations vary significantly due to vendor selection, shipment mode, and operational inefficiencies. This project analyzes shipment data to identify key cost drivers and optimization opportunities.
+
+---
 
 ## 📊 Dataset
 
 * 10,000+ shipment records
-* Includes vendor, shipment mode, freight cost, and product details
+* Includes vendor, shipment mode, freight cost, product details, and delivery timelines
+
+---
 
 ## 🧹 Data Cleaning
 
-* Converted data types
-* Handled missing values
-* Removed duplicates
+* Converted incorrect data types (Freight Cost, Weight)
+* Handled missing values using median & mode
+* Removed duplicate records
+
+---
 
 ## 📈 Key Insights
 
-* Freight cost is highly skewed
-* Shipment mode significantly impacts cost
-* Certain vendors have higher costs
+* Freight cost distribution is highly skewed with significant outliers
+* Shipment mode is the primary cost driver (Air > Ocean > Truck)
+* Certain vendors consistently incur higher costs
+* High variability indicates inefficiencies in logistics operations
+
+---
 
 ## 💡 Business Recommendations
 
-* Optimize shipment mode
-* Improve vendor selection
-* Reduce logistics costs
+* Reduce dependency on high-cost shipment modes
+* Optimize vendor selection based on cost efficiency
+* Investigate outlier shipments
+* Improve data quality for better decision-making
 
-## 🛠️ Tools Used
+---
+
+## 🛠️ Tech Stack
 
 Python, Pandas, NumPy, Seaborn, Matplotlib
+
+---
+
+## 📌 Conclusion
+
+This analysis demonstrates how data-driven insights can optimize logistics costs and improve supply chain efficiency.
+
+---
+
+## 🔗 Author
+
+Ajit Narsupalli
