@@ -30,6 +30,29 @@ Freight costs in supply chain operations vary significantly due to vendor select
 
 ---
 
+## 📸 Visualizations
+
+### Freight Cost Distribution
+Shows right-skewed distribution with high-cost outliers.
+
+![Cost Distribution](images/cost_distribution.png)
+
+---
+
+### Shipment Mode vs Cost
+Highlights cost differences across transportation modes.
+
+![Shipment Mode](images/shipment_mode.png)
+
+---
+
+### Vendor Analysis
+Compares average freight cost across top vendors.
+
+![Vendor](images/vendor.png)
+
+---
+
 ## 💡 Business Recommendations
 
 * Reduce dependency on high-cost shipment modes
