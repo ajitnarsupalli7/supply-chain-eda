@@ -13,6 +13,13 @@ Freight costs in supply chain operations vary significantly due to vendor select
 
 ---
 
+## 📊 Key Metrics
+- Total Records: 10,000+  
+- Key Variable: Freight Cost (USD)  
+- Main Drivers: Shipment Mode, Vendor
+
+---
+
 ## 🧹 Data Cleaning
 
 * Converted incorrect data types (Freight Cost, Weight)
@@ -73,6 +80,11 @@ Python, Pandas, NumPy, Seaborn, Matplotlib
 This analysis demonstrates how data-driven insights can optimize logistics costs and improve supply chain efficiency.
 
 ---
+
+## 🔮 Future Work
+- Build predictive model for freight cost  
+- Develop dashboard using Power BI or Streamlit  
+- Optimize shipment routing strategies  
 
 ## 🔗 Author
 
